@@ -4,7 +4,7 @@
   <title><![CDATA[MootCube.info]]></title>
   <link href="http://mchataigner.github.com/atom.xml" rel="self"/>
   <link href="http://mchataigner.github.com/"/>
-  <updated>2012-11-30T02:55:19+01:00</updated>
+  <updated>2012-11-30T03:10:11+01:00</updated>
   <id>http://mchataigner.github.com/</id>
   <author>
     <name><![CDATA[Mathieu Chataigner]]></name>
@@ -216,8 +216,9 @@ Un très bon article traite ce sujet d’ailleurs. Après plusieurs échanges au
 
 <p>exemple de code</p>
 
-<p>Pour faciliter les tests*, à noter que les 2 extensions chrome JSONView et Advanced REST client sont assez simple d’utilisation et ont un rendu plutôt sympa.
-* Penser à pointer sur le bon serveur ;) cc @mchataigner</p>
+<p>Pour faciliter les tests*, à noter que les 2 extensions chrome JSONView et Advanced REST client sont assez simple d’utilisation et ont un rendu plutôt sympa.</p>
+
+<p>* Penser à pointer sur le bon serveur ;) cc @mchataigner</p>
 
 <p>Enfin pour la partie Web, il aurait été intéressant de rajouter un ‘datepicker’ pour faciliter l’entrée de la date à l’utilisateur, car trouver le datetime de tête&#8230; nous on sait pas faire.</p>
 
