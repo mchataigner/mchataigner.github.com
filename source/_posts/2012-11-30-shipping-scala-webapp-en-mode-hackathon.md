@@ -7,14 +7,16 @@ tags: ["scala","android","hackathon"]
 comment: true
 ---
 <!--{% include JB/setup %}-->
-
+[unjon]: https://twitter.com/un_Jon
+[piwai]: https://twitter.com/Piwai
+[randhindi]: https://twitter.com/randhindi
 <!--Retour sur la soirée ‘Shipper des API, du Web avec Scala et de l'Android en mode hackathon’-->
 
-Ce jeudi 21 novembre une quinzaine de personnes se sont retrouvées pour une soirée en mode ‘hackathon’ animée par @un_Jon, @Piwai et @Randhindi.
+Ce jeudi 21 novembre une quinzaine de personnes se sont retrouvées pour une soirée en mode ‘hackathon’ animée par [@un_Jon][unjon], [@Piwai][piwai] et [@Randhindi][randhindi].
 Le but de la soirée était de nous présenter dans les grandes lignes ce qu’est un hackathon et de nous donner billes pour y être un minimum préparé. 
 
 ##Un hackathon, qu’est-ce c’est?
-La plupart du temps, c’est un événement qui se déroule sur un week-end. Cela se présente sous la forme d’un concours entre plusieurs équipes composées de 1 à 5 personnes. Chaque groupe a entre 24-36h pour développer une application, la mettre en production et la présenter devant un jury. À la différence des startup-weekend, ici il faut que l’application soit fonctionnelle pour être présentée. Très souvent, des sponsors sont rattachés à ces événements et c’est l’occasion de gagner de nombreux lots. Par exemple, AngelHack, un hackathon organisé à l’échelle internationale le week-end du 1er décembre 2012 à Paris, offrira à l’équipe gagnante un séjour de 6 semaines pour la Silicon Valley pour y rencontrer des investisseurs, des médias et des boîtes orientées technologies. Il est intéressant de noter que plus de 30% des finalistes trouvent des financements et montent des startups à la suite de ces événements.
+La plupart du temps, c’est un événement qui se déroule sur un week-end. Cela se présente sous la forme d’un concours entre plusieurs équipes composées de 1 à 5 personnes. Chaque groupe a entre 24-36h pour développer une application, la mettre en production et la présenter devant un jury. À la différence des startup-weekend, ici il faut que l’application soit fonctionnelle pour être présentée. Très souvent, des sponsors sont rattachés à ces événements et c’est l’occasion de gagner de nombreux lots. Par exemple, [AngelHack](http://angelhack.com/), un hackathon organisé à l’échelle internationale le week-end du 1er décembre 2012 à Paris, offrira à l’équipe gagnante un séjour de 6 semaines pour la Silicon Valley pour y rencontrer des investisseurs, des médias et des boîtes orientées technologies. Il est intéressant de noter que plus de 30% des finalistes trouvent des financements et montent des startups à la suite de ces événements.
 
 ###Quelques conseils
 
@@ -33,7 +35,7 @@ Voici quelques conseils pour tous ceux qui auraient envie de se lancer:
 
 ##Maintenant c’est à nous de coder!
 
-A cette soirée découverte hackathon, @un_Jon (maître Monoïd) et @Piwai (maître Android) ont chacun défendus leur technologie.
+A cette soirée découverte hackathon, [@un_Jon][unjon] (maître Monoïd) et [@Piwai][piwai] (maître Android) ont chacun défendus leur technologie.
 
 ###Pourquoi Scala?
 Scala est un langage moins verbeux que Java, typesafe, avec des fonction de plus haut niveau sur les collection notamment. Il permet aussi d’obtenir un résultat rapidement sans avoir recours à des frameworks “exotiques”. Combiné avec Unfiltered, on peut shipper une API web REST en idiomatic Scala. Play2 peut aussi apporter des solutions intéressantes avec les iteratees. Attention à ne pas se risquer à utiliser une version trop récente de Scala\* (comme la 2.10), qui peut être instable et offre des fonctionnalités qui n’apporteraient rien de plus. En résumé, Scala ça poutre\*\* !
@@ -46,7 +48,7 @@ Scala est un langage moins verbeux que Java, typesafe, avec des fonction de plus
 Parce que cet outil de gestion de dépendances s’intrègre totalement avec Scala et qu’il offre une console qui roxxe des mamans ours. Inutile donc de s’embêter avec Maven.
 
 ###Pourquoi Android?
-Parce que c’est l’OS qui est en train de devenir maitre du monde! Et que cette soirée était organisé par @Piwai (très bon professeur Android). Plus sérieusement, il faut garder en tête, que ce que le jury verra en premier, c’est le visuel de l’application. Inutile de partir dans des choses trop compliquées, il faut rester simple et limiter le cadre dès le début. La rotation de l’écran est une feature pas évidente, on peut tout à fait s’en passer pour un hackathon en figeant les écrans. Pour le squelette, penser à androidkickstartr.com, pour les libs android-ui-utils.googlecode.com, androiduipatterns.com, Spring RestTemplates ou encore androidannotations.org.
+Parce que c’est l’OS qui est en train de devenir maitre du monde! Et que cette soirée était organisé par @Piwai (très bon professeur Android). Plus sérieusement, il faut garder en tête, que ce que le jury verra en premier, c’est le visuel de l’application. Inutile de partir dans des choses trop compliquées, il faut rester simple et limiter le cadre dès le début. La rotation de l’écran est une feature pas évidente, on peut tout à fait s’en passer pour un hackathon en figeant les écrans. Pour le squelette, penser à [androidkickstartr.com](http://androidkickstartr.com/), pour les libs [android-ui-utils.googlecode.com](https://code.google.com/p/android-ui-utils/), [androiduipatterns.com](http://www.androiduipatterns.com/), [Spring RestTemplates](http://static.springsource.org/spring/docs/3.0.x/javadoc-api/org/springframework/web/client/RestTemplate.html) ou encore [androidannotations.org](http://androidannotations.org/).
 
 
 Enfin, s’il y a une idée à garder en tête, c’est celle-ci:  **il faut que le produit marche! Pas besoin de fournir un super beau code!**
@@ -55,9 +57,14 @@ Enfin, s’il y a une idée à garder en tête, c’est celle-ci:  **il faut que
 
 ##L’implémentation (partie scala uniquement)
 
-Passons maintenant à l’implémentation. Nous sommes partis d’une application déjà existante, avec des fonctionnalités à rajouter ou compléter. Les squelettes sont d’ailleurs disponibles sur GitHub pour les parites scala et Android.
+Passons maintenant à l’implémentation. Nous sommes partis d’une application déjà existante, avec des fonctionnalités à rajouter ou compléter. Les squelettes sont d’ailleurs disponibles sur GitHub pour les parites scala ([https://github.com/un-jon/emh](https://github.com/un-jon/emh)) et Android ([https://github.com/pyricau/CinePotes](https://github.com/pyricau/CinePotes)).
 Pour suivre le format d’un hackathon, nous avons formé des petits groupes de 4 personnes et nous nous sommes répartis des tâches après avoir établi ce qui nous semblait être le plus prioritaire.
 
+<center>
+<img src="https://lh6.googleusercontent.com/974X8ppgJqZ8kg3rDofAV2vvpMocr3xQCihS_0xkuo7ipmeOY8f73yRecZkrCv6YMa3h6RyEW4tcnc0uBGP2o7Uq2Miv9cmq2eJRKWqZXR9mckD5Wgs" width="360px" />
+</center>
+
+<!--![hackathon style](https://lh6.googleusercontent.com/974X8ppgJqZ8kg3rDofAV2vvpMocr3xQCihS_0xkuo7ipmeOY8f73yRecZkrCv6YMa3h6RyEW4tcnc0uBGP2o7Uq2Miv9cmq2eJRKWqZXR9mckD5Wgs "hackathon style")-->
 
 Voici tout d’abord une rapide présentation de l’application.
 
@@ -75,7 +82,7 @@ Voici une rapide présentation de Unfiltered:
 
 - la déclaration d’un web service avec l’opération HTTP Get et une réponse au format JSON s’écrit sous forme d’un contrat (intent) et ses chemins :
 
-{% highlight scala %}
+``` scala création d'un web service Rest
 
 /** unfiltered plan */
 trait KApp extends unfiltered.filter.Plan {
@@ -87,11 +94,11 @@ trait KApp extends unfiltered.filter.Plan {
     case GET(Path("/sessions")) => jsonResponse(listShowing())
   }
 }
-{% endhighlight %}
+```
 
 - le lancement du serveur:
 
-{% highlight scala %}
+``` scala création d'un serveur unfiltered
 
 /** embedded server */
 object Server {
@@ -107,11 +114,11 @@ object Server {
       })
   }
 }
-{% endhighlight %}
+```
 
 Un des avantages de Scala, est la possibilité de mettre du code xml/html inline sans passer par des strings comme le montre l’exemple suivant :
 
-{% highlight scala %}
+``` scala formulaire de création d'un nouveau doodle
 case GET(Path("/newdoodle")) => Ok ~> HtmlContent ~> Html(
     <html><body><form action="/kplaner" method="POST">
       <input type="text" name="kinoid"/>
@@ -119,11 +126,11 @@ case GET(Path("/newdoodle")) => Ok ~> HtmlContent ~> Html(
       <input type="submit"/>
     </form></body></html>
   )
-{% endhighlight %}
+```
 
 ###Notre production
 
-Après quelques petits problèmes de configurations d’environnement (n’est-ce pas @nivdul :D), on est rentré dans le code.
+Après quelques petits problèmes de configurations d’environnement (n’est-ce pas [@nivdul](http://twitter.com/nivdul) :D), on est rentré dans le code.
 
 Nous avons identifié 3 améliorations du squelette :
 
@@ -131,7 +138,7 @@ Nous avons identifié 3 améliorations du squelette :
 
 Aperçu du service de sauvegarde in memory des nouveaux doodles créés:
 
-{% highlight scala %}
+``` scala enregistrement des nouveaux doodles in memory
 trait InMemoryKplanerCreationService extends KPlanerCreationService {
   lazy val kplanerMap = new collection.mutable.HashMap[String, Kplaner]()
 
@@ -143,28 +150,18 @@ trait InMemoryKplanerCreationService extends KPlanerCreationService {
   }
 …
 }
-{% endhighlight %}
+```
 
 - affichage d’une liste filtrée sur un cinéma et une date dans un intervalle de 2h.
 
-{% highlight scala linenos=table %}
+``` scala filtre de la liste des cinémas
 case GET(Path(Seg("sessions" :: timestamp :: Nil))) => jsonResponse(listShowing().filter(x =>
   {
 
     val showingTimestamp = x.datetime.toDate.getTime
     x.datetime.toDate.getTime > timestamp.toLong - ONE_HOUR && showingTimestamp < timestamp.toLong + ONE_HOUR
   }
-{% endhighlight %}
-
-
-{% codeblock %}
-case GET(Path(Seg("sessions" :: timestamp :: Nil))) => jsonResponse(listShowing().filter(x =>
-  {
-
-    val showingTimestamp = x.datetime.toDate.getTime
-    x.datetime.toDate.getTime > timestamp.toLong - ONE_HOUR && showingTimestamp < timestamp.toLong + ONE_HOUR
-  }
-{% endcodeblock %}
+```
 
 - ajout d’une vue de vote pour le film de son choix.
 
@@ -172,24 +169,25 @@ Par manque de temps, on n’a pas fait le lien entre le formulaire de vote du ch
 
 ###Bonus
 Premier soucis au niveau des dates: comment gérer une date sur différentes UI? 
-Un très bon article traite ce sujet d’ailleurs. Après plusieurs échanges au seins de l’équipe, il apparaît qu’il est plus simple de passer par des timestamp (nombre de (milli)secondes depuis le 1er Jan 1970) pour les transferts et d’utiliser l’API Joda Time côté Java/Scala.
-
-exemple de code
-
+Un très bon article ([http://blog.eklaweb.com/2012/08/28/gestion-des-dates-en-informatique/](http://blog.eklaweb.com/2012/08/28/gestion-des-dates-en-informatique/)) traite ce sujet d’ailleurs. Après plusieurs échanges au seins de l’équipe, il apparaît qu’il est plus simple de passer par des timestamp (nombre de (milli)secondes depuis le 1er Jan 1970) pour les transferts et d’utiliser l’API Joda Time côté Java/Scala.
 
 Pour faciliter les tests\*, à noter que les 2 extensions chrome JSONView et Advanced REST client sont assez simple d’utilisation et ont un rendu plutôt sympa.
 
-\* Penser à pointer sur le bon serveur ;) cc @mchataigner
+\* Penser à pointer sur le bon serveur ;) cc [@mchataigner](http://twitter.com/mchataigner)
 
 Enfin pour la partie Web, il aurait été intéressant de rajouter un ‘datepicker’ pour faciliter l’entrée de la date à l’utilisateur, car trouver le datetime de tête... nous on sait pas faire.
 
 
 ##Conclusion
 
+<!--
 ##Ludwine
 La soirée a été très intéressante en terme de développement, puisque j’ai appris à implémenter des services REST grâce à Unfiltered. J’ai également pu constater qu’il était assez simple de gérer des formulaires html en scala. Enfin, cette soirée m’a vraiment donné envie de participer à un hackathon.
 
 ##Mathieu
+-->
 C’était une expérience sympa. Du coup, j’ai envie d’aller au hackathon AngelHack. Cependant, je ne suis pas sûr d’être au niveau pour shipper les features assez rapidement pour gagner, je ne suis pas encore fluide en Scala. Mais rappelons-le, l’essentiel c’est de participer. Et puis on a jusqu’au 30 novembre pour s’entraîner. 
+
+Merci à [@nivdul](http://twitter.com/nivdul) pour avoir co-rédigé cet article.
 
 Et toi, viendras-tu au AngelHack?
