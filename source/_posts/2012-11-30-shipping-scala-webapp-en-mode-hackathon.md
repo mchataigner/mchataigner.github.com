@@ -5,7 +5,7 @@ description: ""
 category: "community"
 tags: ["scala","android","hackathon"]
 ---
-{% include JB/setup %}
+<!--{% include JB/setup %}-->
 
 <!--Retour sur la soirée ‘Shipper des API, du Web avec Scala et de l'Android en mode hackathon’-->
 
@@ -35,7 +35,7 @@ Voici quelques conseils pour tous ceux qui auraient envie de se lancer:
 A cette soirée découverte hackathon, @un_Jon (maître Monoïd) et @Piwai (maître Android) ont chacun défendus leur technologie.
 
 ###Pourquoi Scala?
-Scala est un langage moins verbeux que Java, typesafe, avec des fonction de plus haut niveau sur les collection notamment. Il permet aussi d’obtenir un résultat rapidement sans avoir recours à des framework “exotiques”. Combiné avec Unfiltered, on peut shipper une API web REST en idiomatic Scala. Play2 peut aussi apporter des solutions intéressantes avec les iteratees. Attention à ne pas se risquer à utiliser une version trop récente de Scala\* (comme la 2.10), qui peut être instable et offre des fonctionnalités qui n’apporteraient rien de plus. En résumé, Scala ça poutre\*\* !
+Scala est un langage moins verbeux que Java, typesafe, avec des fonction de plus haut niveau sur les collection notamment. Il permet aussi d’obtenir un résultat rapidement sans avoir recours à des frameworks “exotiques”. Combiné avec Unfiltered, on peut shipper une API web REST en idiomatic Scala. Play2 peut aussi apporter des solutions intéressantes avec les iteratees. Attention à ne pas se risquer à utiliser une version trop récente de Scala\* (comme la 2.10), qui peut être instable et offre des fonctionnalités qui n’apporteraient rien de plus. En résumé, Scala ça poutre\*\* !
 
 \* A noter que le mot monoïd n’a étonnement pas été prononcé...
 
@@ -48,7 +48,7 @@ Parce que cet outil de gestion de dépendances s’intrègre totalement avec Sca
 Parce que c’est l’OS qui est en train de devenir maitre du monde! Et que cette soirée était organisé par @Piwai (très bon professeur Android). Plus sérieusement, il faut garder en tête, que ce que le jury verra en premier, c’est le visuel de l’application. Inutile de partir dans des choses trop compliquées, il faut rester simple et limiter le cadre dès le début. La rotation de l’écran est une feature pas évidente, on peut tout à fait s’en passer pour un hackathon en figeant les écrans. Pour le squelette, penser à androidkickstartr.com, pour les libs android-ui-utils.googlecode.com, androiduipatterns.com, Spring RestTemplates ou encore androidannotations.org.
 
 
-Enfin, s’il y a une idée à garder en tête, c’est celle-ci:  *il faut que le produit marche! Pas besoin de fournir un super beau code!*
+Enfin, s’il y a une idée à garder en tête, c’est celle-ci:  **il faut que le produit marche! Pas besoin de fournir un super beau code!**
 
 
 
@@ -176,8 +176,8 @@ Un très bon article traite ce sujet d’ailleurs. Après plusieurs échanges au
 exemple de code
 
 
-Pour faciliter les tests*, à noter que les 2 extensions chrome JSONView et Advanced REST client sont assez simple d’utilisation et ont un rendu plutôt sympa.
-*Penser à pointer sur le bon serveur ;) cc @mchataigner
+Pour faciliter les tests\*, à noter que les 2 extensions chrome JSONView et Advanced REST client sont assez simple d’utilisation et ont un rendu plutôt sympa.
+\* Penser à pointer sur le bon serveur ;) cc @mchataigner
 
 Enfin pour la partie Web, il aurait été intéressant de rajouter un ‘datepicker’ pour faciliter l’entrée de la date à l’utilisateur, car trouver le datetime de tête... nous on sait pas faire.
 
