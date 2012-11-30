@@ -1,17 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>
-            http://mchataigner.github.com/blog/2012/11/30/shipping-scala-webapp-en-mode-hackathon/
-        </loc>
+        <loc>http://mootcube.info/blog/2012/11/30/shipping-scala-webapp-en-mode-hackathon/</loc>
         <lastmod>2012-11-30T02:56:40+01:00</lastmod>
     </url>
     <url>
-        <loc>http://mchataigner.github.com/</loc>
+        <loc>http://mootcube.info/</loc>
         <lastmod>2012-11-30T02:56:40+01:00</lastmod>
     </url>
     <url>
-        <loc>http://mchataigner.github.com/blog/archives/</loc>
+        <loc>http://mootcube.info/blog/archives/</loc>
         <lastmod>2012-11-30T02:56:40+01:00</lastmod>
     </url>
 </urlset>
