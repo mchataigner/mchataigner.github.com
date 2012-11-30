@@ -1,0 +1,1 @@
+../../../mootcube.github.com/_posts/2012-11-30-shipping-scala-webapp-en-mode-hackathon.md
