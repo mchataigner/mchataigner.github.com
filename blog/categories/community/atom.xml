@@ -1,99 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>MootCube.info</title>
-  <meta name="author" content="Mathieu Chataigner">
-
-  
-  <meta name="description" content="Included file &#8216;JB/setup&#8217; not found in _includes directory Ce jeudi 21 novembre une quinzaine de personnes se sont retrouvées pour une &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://mchataigner.github.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="MootCube.info" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">MootCube.info</a></h1>
-  
-    <h2>A blog for developers and more.</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:mchataigner.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Category: community | MootCube.info]]></title>
+  <link href="http://mchataigner.github.com/blog/categories/community/atom.xml" rel="self"/>
+  <link href="http://mchataigner.github.com/"/>
+  <updated>2012-11-30T02:45:59+01:00</updated>
+  <id>http://mchataigner.github.com/</id>
+  <author>
+    <name><![CDATA[Mathieu Chataigner]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2012/11/30/shipping-scala-webapp-en-mode-hackathon/">Shipper Des API, Du Web Avec Scala Et De l&#8217;Android en Mode Hackathon</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2012-11-30T00:00:00+01:00" pubdate data-updated="true">Nov 30<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Included file &#8216;JB/setup&#8217; not found in _includes directory</p>
+  <entry>
+    <title type="html"><![CDATA[Shipper des API, du Web avec Scala et de l'Android en mode hackathon]]></title>
+    <link href="http://mchataigner.github.com/blog/2012/11/30/shipping-scala-webapp-en-mode-hackathon/"/>
+    <updated>2012-11-30T00:00:00+01:00</updated>
+    <id>http://mchataigner.github.com/blog/2012/11/30/shipping-scala-webapp-en-mode-hackathon</id>
+    <content type="html"><![CDATA[<p>Included file 'JB/setup' not found in _includes directory</p>
 
 <!--Retour sur la soirée ‘Shipper des API, du Web avec Scala et de l'Android en mode hackathon’-->
 
@@ -111,10 +36,10 @@ Le but de la soirée était de nous présenter dans les grandes lignes ce qu’e
 
 <ul>
 <li><p><strong>L’équipe</strong>: former une équipe équilibrée avec 1 product manager, 2 front et 2 back. Le product manager prend tout son sens pour la coordination du front (UI + UX), back (API), et c’est lui qui aura la lourde tâche de faire la présentation/démo devant le jury. Pas besoin d’y aller avec une équipe déjà constituée, les participants se répartissent sur place en fonction de leurs idées de produit. Faire attention à avoir une application modulaire, pour pouvoir couper une partie à tout moment et faciliter la répartition des tâches au sein de l’équipe. Il est important aussi de ne pas rester du début à la fin sur les mêmes features et communiquer régulièrement pour voir où on en est !</p></li>
-<li><p><strong>Les technos</strong>: Utiliser une technologie que l’on connaît (pour éviter de passer son temps à lire la doc), enlever la partie test (pour gagner du temps, l’objectif est le prototype!), et les println suffisent amplement ! Enfin, venir avec son environnement de développement prêt à travailler en préparant en amont le squelette d’une application (combien de temps on perd à tout configurer, IDE, maven/sbt, dépendances&#8230;).</p></li>
+<li><p><strong>Les technos</strong>: Utiliser une technologie que l’on connaît (pour éviter de passer son temps à lire la doc), enlever la partie test (pour gagner du temps, l’objectif est le prototype!), et les println suffisent amplement ! Enfin, venir avec son environnement de développement prêt à travailler en préparant en amont le squelette d’une application (combien de temps on perd à tout configurer, IDE, maven/sbt, dépendances...).</p></li>
 <li><p><strong>Le produit</strong>: choisir un produit simple et cool (KISS) pour avoir un ‘WOW effect’ durant la présentation et choisir un nom qui claque. Penser à soigner les UI+UX, car c’est la première chose que le jury va voir.</p></li>
 <li><p><strong>Le pitch</strong>: c’est le rôle du PM ! Commencer à penser à la présentation du produit bien avant la fin de la réalisation, et ne pas hésiter à adapter son discours suite aux réactions du jury face aux autres produits (si on ne passe pas en premier bien sûr :) ).</p></li>
-<li><p><strong>Autres conseils pratiques</strong>: faire des pauses régulièrement, dormir mais pas trop, ne pas manger trop lourd&#8230;et éviter de boire trop de redbull.</p></li>
+<li><p><strong>Autres conseils pratiques</strong>: faire des pauses régulièrement, dormir mais pas trop, ne pas manger trop lourd...et éviter de boire trop de redbull.</p></li>
 </ul>
 
 
@@ -126,7 +51,7 @@ Le but de la soirée était de nous présenter dans les grandes lignes ce qu’e
 
 <p>Scala est un langage moins verbeux que Java, typesafe, avec des fonction de plus haut niveau sur les collection notamment. Il permet aussi d’obtenir un résultat rapidement sans avoir recours à des framework “exotiques”. Combiné avec Unfiltered, on peut shipper une API web REST en idiomatic Scala. Play2 peut aussi apporter des solutions intéressantes avec les iteratees. Attention à ne pas se risquer à utiliser une version trop récente de Scala* (comme la 2.10), qui peut être instable et offre des fonctionnalités qui n’apporteraient rien de plus. En résumé, Scala ça poutre** !</p>
 
-<p>* A noter que le mot monoïd n’a étonnement pas été prononcé&#8230;</p>
+<p>* A noter que le mot monoïd n’a étonnement pas été prononcé...</p>
 
 <p>** citation bien connue</p>
 
@@ -165,55 +90,68 @@ Pour suivre le format d’un hackathon, nous avons formé des petits groupes de 
 </ul>
 
 
-<div>
-  <pre><code class='scala'>/** unfiltered plan */
-trait KApp extends unfiltered.filter.Plan {
-  self: KinoService with KPlanerCreationService =&gt;
+<p><div>
+  <pre><code class='scala'>&lt;/p&gt;
 
-  def intent = {
-    case GET(Path(&quot;/kinolist&quot;)) =&gt; jsonResponse(listKinos())
-    case GET(Path(&quot;/filmlist&quot;)) =&gt; jsonResponse(listFilms())
-    case GET(Path(&quot;/sessions&quot;)) =&gt; jsonResponse(listShowing())
-  }
+&lt;p&gt;/&lt;em&gt;* unfiltered plan &lt;/em&gt;/
+trait KApp extends unfiltered.filter.Plan {
+  self: KinoService with KPlanerCreationService =&gt;&lt;/p&gt;
+
+&lt;p&gt;  def intent = {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;case GET(Path(&quot;/kinolist&quot;)) =&amp;gt; jsonResponse(listKinos())
+case GET(Path(&quot;/filmlist&quot;)) =&amp;gt; jsonResponse(listFilms())
+case GET(Path(&quot;/sessions&quot;)) =&amp;gt; jsonResponse(listShowing())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  }
 }</code></pre>
 </div>
-
+</p>
 
 <ul>
 <li>le lancement du serveur:</li>
 </ul>
 
 
-<div>
-  <pre><code class='scala'>/** embedded server */
+<p><div>
+  <pre><code class='scala'>&lt;/p&gt;
+
+&lt;p&gt;/&lt;em&gt;* embedded server &lt;/em&gt;/
 object Server {
-  def main(args: Array[String]) {
-    val http = unfiltered.jetty.Http(8080) // this will not be necessary in 0.4.0
-    http.context(&quot;/assets&quot;) { _.resources(new java.net.URL(getClass().getResource(&quot;/www/css&quot;), &quot;.&quot;)) }
-      .filter(new KApp with InMemoryKinoFixtureService with InMemoryKplanerCreationService).run({ svr =&gt;
-    {
-      unfiltered.util.Browser.open(http.url)
-    }
-      }, { svr =&gt;
-        println(&quot;shutting down server&quot;)
-      })
-  }
+  def main(args: Array[String]) {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;val http = unfiltered.jetty.Http(8080) // this will not be necessary in 0.4.0
+http.context(&quot;/assets&quot;) { _.resources(new java.net.URL(getClass().getResource(&quot;/www/css&quot;), &quot;.&quot;)) }
+  .filter(new KApp with InMemoryKinoFixtureService with InMemoryKplanerCreationService).run({ svr =&amp;gt;
+{
+  unfiltered.util.Browser.open(http.url)
+}
+  }, { svr =&amp;gt;
+    println(&quot;shutting down server&quot;)
+  })
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  }
 }</code></pre>
 </div>
-
+</p>
 
 <p>Un des avantages de Scala, est la possibilité de mettre du code xml/html inline sans passer par des strings comme le montre l’exemple suivant :</p>
 
-<div>
-  <pre><code class='scala'>case GET(Path(&quot;/newdoodle&quot;)) =&gt; Ok ~&gt; HtmlContent ~&gt; Html(
-    &lt;html&gt;&lt;body&gt;&lt;form action=&quot;/kplaner&quot; method=&quot;POST&quot;&gt;
-      &lt;input type=&quot;text&quot; name=&quot;kinoid&quot;/&gt;
-      &lt;input type=&quot;text&quot; name=&quot;date&quot;/&gt;
-      &lt;input type=&quot;submit&quot;/&gt;
-    &lt;/form&gt;&lt;/body&gt;&lt;/html&gt;
-  )</code></pre>
-</div>
+<p><div>
+  <pre><code class='scala'>case GET(Path(&quot;/newdoodle&quot;)) =&gt; Ok ~&gt; HtmlContent ~&gt; Html(&lt;/p&gt;
 
+&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;form action=&quot;/kplaner&quot; method=&quot;POST&quot;&amp;gt;
+  &amp;lt;input type=&quot;text&quot; name=&quot;kinoid&quot;/&amp;gt;
+  &amp;lt;input type=&quot;text&quot; name=&quot;date&quot;/&amp;gt;
+  &amp;lt;input type=&quot;submit&quot;/&amp;gt;
+&amp;lt;/form&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  )</code></pre>
+</div>
+</p>
 
 <h3>Notre production</h3>
 
@@ -228,51 +166,57 @@ object Server {
 
 <p>Aperçu du service de sauvegarde in memory des nouveaux doodles créés:</p>
 
-<div>
+<p><div>
   <pre><code class='scala'>trait InMemoryKplanerCreationService extends KPlanerCreationService {
-  lazy val kplanerMap = new collection.mutable.HashMap[String, Kplaner]()
+  lazy val kplanerMap = new collection.mutable.HashMap&lt;a href=&quot;&quot;&gt;String, Kplaner&lt;/a&gt;&lt;/p&gt;
 
-  def newKplaner(kino: Kino, date: DateTime) = {
-    val uid = UUID.randomUUID().toString
-    val kplaner = Kplaner(uid, kino, date, Set.empty)
-    kplanerMap += uid -&gt; kplaner
-    kplaner
-  }
+&lt;p&gt;  def newKplaner(kino: Kino, date: DateTime) = {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;val uid = UUID.randomUUID().toString
+val kplaner = Kplaner(uid, kino, date, Set.empty)
+kplanerMap += uid -&amp;gt; kplaner
+kplaner
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  }
 …
 }</code></pre>
 </div>
-
+</p>
 
 <ul>
 <li>affichage d’une liste filtrée sur un cinéma et une date dans un intervalle de 2h.</li>
 </ul>
 
 
-<div>
+<p><div>
   <pre><code class='scala'>case GET(Path(Seg(&quot;sessions&quot; :: timestamp :: Nil))) =&gt; jsonResponse(listShowing().filter(x =&gt;
-  {
+  {&lt;/p&gt;
 
-    val showingTimestamp = x.datetime.toDate.getTime
-    x.datetime.toDate.getTime &gt; timestamp.toLong - ONE_HOUR &amp;&amp; showingTimestamp &lt; timestamp.toLong + ONE_HOUR
-  }</code></pre>
+&lt;pre&gt;&lt;code&gt;val showingTimestamp = x.datetime.toDate.getTime
+x.datetime.toDate.getTime &amp;gt; timestamp.toLong - ONE_HOUR &amp;amp;&amp;amp; showingTimestamp &amp;lt; timestamp.toLong + ONE_HOUR
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  }</code></pre>
 </div>
+</p>
 
-
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>case GET(Path(Seg("sessions" :: timestamp :: Nil))) => jsonResponse(listShowing().filter(x =>
-</span><span class='line'>  {
+</span><span class='line'>  {&lt;/p>
 </span><span class='line'>
-</span><span class='line'>    val showingTimestamp = x.datetime.toDate.getTime
-</span><span class='line'>    x.datetime.toDate.getTime > timestamp.toLong - ONE_HOUR && showingTimestamp &lt; timestamp.toLong + ONE_HOUR
-</span><span class='line'>  }</span></code></pre></td></tr></table></div></figure>
-
+</span><span class='line'>&lt;pre>&lt;code>val showingTimestamp = x.datetime.toDate.getTime
+</span><span class='line'>x.datetime.toDate.getTime &gt; timestamp.toLong - ONE_HOUR &amp;&amp; showingTimestamp &lt; timestamp.toLong + ONE_HOUR
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  }</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <ul>
 <li>ajout d’une vue de vote pour le film de son choix.</li>
@@ -291,7 +235,7 @@ Un très bon article traite ce sujet d’ailleurs. Après plusieurs échanges au
 <p>Pour faciliter les tests<em>, à noter que les 2 extensions chrome JSONView et Advanced REST client sont assez simple d’utilisation et ont un rendu plutôt sympa.
 </em>Penser à pointer sur le bon serveur ;) cc @mchataigner</p>
 
-<p>Enfin pour la partie Web, il aurait été intéressant de rajouter un ‘datepicker’ pour faciliter l’entrée de la date à l’utilisateur, car trouver le datetime de tête&#8230; nous on sait pas faire.</p>
+<p>Enfin pour la partie Web, il aurait été intéressant de rajouter un ‘datepicker’ pour faciliter l’entrée de la date à l’utilisateur, car trouver le datetime de tête... nous on sait pas faire.</p>
 
 <h2>Conclusion</h2>
 
@@ -304,122 +248,7 @@ Un très bon article traite ce sujet d’ailleurs. Après plusieurs échanges au
 <p>C’était une expérience sympa. Du coup, j’ai envie d’aller au hackathon AngelHack. Cependant, je ne suis pas sûr d’être au niveau pour shipper les features assez rapidement pour gagner, je ne suis pas encore fluide en Scala. Mais rappelons-le, l’essentiel c’est de participer. Et puis on a jusqu’au 30 novembre pour s’entraîner.</p>
 
 <p>Et toi, viendras-tu au AngelHack?</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2012/11/30/shipping-scala-webapp-en-mode-hackathon/">Shipper des API, du Web avec Scala et de l&#8217;Android en mode hackathon</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/mchataigner">@mchataigner</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'mchataigner',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("mchataigner", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/mchataigner" class="twitter-follow-button" data-show-count="false">Follow @mchataigner</a>
-  
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Mathieu Chataigner -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian Kraft Fotografie</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>

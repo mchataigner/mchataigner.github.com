@@ -4,7 +4,7 @@
   <title><![CDATA[MootCube.info]]></title>
   <link href="http://mchataigner.github.com/atom.xml" rel="self"/>
   <link href="http://mchataigner.github.com/"/>
-  <updated>2012-11-30T02:24:35+01:00</updated>
+  <updated>2012-11-30T02:45:59+01:00</updated>
   <id>http://mchataigner.github.com/</id>
   <author>
     <name><![CDATA[Mathieu Chataigner]]></name>
@@ -14,11 +14,221 @@
 
   
   <entry>
-    <title type="html"><![CDATA[title]]></title>
-    <link href="http://mchataigner.github.com/blog/2012/11/30/title/"/>
-    <updated>2012-11-30T01:10:00+01:00</updated>
-    <id>http://mchataigner.github.com/blog/2012/11/30/title</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[Shipper des API, du Web avec Scala et de l'Android en mode hackathon]]></title>
+    <link href="http://mchataigner.github.com/blog/2012/11/30/shipping-scala-webapp-en-mode-hackathon/"/>
+    <updated>2012-11-30T00:00:00+01:00</updated>
+    <id>http://mchataigner.github.com/blog/2012/11/30/shipping-scala-webapp-en-mode-hackathon</id>
+    <content type="html"><![CDATA[<p>Included file &#8216;JB/setup&#8217; not found in _includes directory</p>
+
+<!--Retour sur la soirée ‘Shipper des API, du Web avec Scala et de l'Android en mode hackathon’-->
+
+
+<p>Ce jeudi 21 novembre une quinzaine de personnes se sont retrouvées pour une soirée en mode ‘hackathon’ animée par @un_Jon, @Piwai et @Randhindi.
+Le but de la soirée était de nous présenter dans les grandes lignes ce qu’est un hackathon et de nous donner billes pour y être un minimum préparé.</p>
+
+<h2>Un hackathon, qu’est-ce c’est?</h2>
+
+<p>La plupart du temps, c’est un événement qui se déroule sur un week-end. Cela se présente sous la forme d’un concours entre plusieurs équipes composées de 1 à 5 personnes. Chaque groupe a entre 24-36h pour développer une application, la mettre en production et la présenter devant un jury. À la différence des startup-weekend, ici il faut que l’application soit fonctionnelle pour être présentée. Très souvent, des sponsors sont rattachés à ces événements et c’est l’occasion de gagner de nombreux lots. Par exemple, AngelHack, un hackathon organisé à l’échelle internationale le week-end du 1er décembre 2012 à Paris, offrira à l’équipe gagnante un séjour de 6 semaines pour la Silicon Valley pour y rencontrer des investisseurs, des médias et des boîtes orientées technologies. Il est intéressant de noter que plus de 30% des finalistes trouvent des financements et montent des startups à la suite de ces événements.</p>
+
+<h3>Quelques conseils</h3>
+
+<p>Voici quelques conseils pour tous ceux qui auraient envie de se lancer:</p>
+
+<ul>
+<li><p><strong>L’équipe</strong>: former une équipe équilibrée avec 1 product manager, 2 front et 2 back. Le product manager prend tout son sens pour la coordination du front (UI + UX), back (API), et c’est lui qui aura la lourde tâche de faire la présentation/démo devant le jury. Pas besoin d’y aller avec une équipe déjà constituée, les participants se répartissent sur place en fonction de leurs idées de produit. Faire attention à avoir une application modulaire, pour pouvoir couper une partie à tout moment et faciliter la répartition des tâches au sein de l’équipe. Il est important aussi de ne pas rester du début à la fin sur les mêmes features et communiquer régulièrement pour voir où on en est !</p></li>
+<li><p><strong>Les technos</strong>: Utiliser une technologie que l’on connaît (pour éviter de passer son temps à lire la doc), enlever la partie test (pour gagner du temps, l’objectif est le prototype!), et les println suffisent amplement ! Enfin, venir avec son environnement de développement prêt à travailler en préparant en amont le squelette d’une application (combien de temps on perd à tout configurer, IDE, maven/sbt, dépendances&#8230;).</p></li>
+<li><p><strong>Le produit</strong>: choisir un produit simple et cool (KISS) pour avoir un ‘WOW effect’ durant la présentation et choisir un nom qui claque. Penser à soigner les UI+UX, car c’est la première chose que le jury va voir.</p></li>
+<li><p><strong>Le pitch</strong>: c’est le rôle du PM ! Commencer à penser à la présentation du produit bien avant la fin de la réalisation, et ne pas hésiter à adapter son discours suite aux réactions du jury face aux autres produits (si on ne passe pas en premier bien sûr :) ).</p></li>
+<li><p><strong>Autres conseils pratiques</strong>: faire des pauses régulièrement, dormir mais pas trop, ne pas manger trop lourd&#8230;et éviter de boire trop de redbull.</p></li>
+</ul>
+
+
+<h2>Maintenant c’est à nous de coder!</h2>
+
+<p>A cette soirée découverte hackathon, @un_Jon (maître Monoïd) et @Piwai (maître Android) ont chacun défendus leur technologie.</p>
+
+<h3>Pourquoi Scala?</h3>
+
+<p>Scala est un langage moins verbeux que Java, typesafe, avec des fonction de plus haut niveau sur les collection notamment. Il permet aussi d’obtenir un résultat rapidement sans avoir recours à des framework “exotiques”. Combiné avec Unfiltered, on peut shipper une API web REST en idiomatic Scala. Play2 peut aussi apporter des solutions intéressantes avec les iteratees. Attention à ne pas se risquer à utiliser une version trop récente de Scala* (comme la 2.10), qui peut être instable et offre des fonctionnalités qui n’apporteraient rien de plus. En résumé, Scala ça poutre** !</p>
+
+<p>* A noter que le mot monoïd n’a étonnement pas été prononcé&#8230;</p>
+
+<p>** citation bien connue</p>
+
+<h3>Pourquoi SBT?</h3>
+
+<p>Parce que cet outil de gestion de dépendances s’intrègre totalement avec Scala et qu’il offre une console qui roxxe des mamans ours. Inutile donc de s’embêter avec Maven.</p>
+
+<h3>Pourquoi Android?</h3>
+
+<p>Parce que c’est l’OS qui est en train de devenir maitre du monde! Et que cette soirée était organisé par @Piwai (très bon professeur Android). Plus sérieusement, il faut garder en tête, que ce que le jury verra en premier, c’est le visuel de l’application. Inutile de partir dans des choses trop compliquées, il faut rester simple et limiter le cadre dès le début. La rotation de l’écran est une feature pas évidente, on peut tout à fait s’en passer pour un hackathon en figeant les écrans. Pour le squelette, penser à androidkickstartr.com, pour les libs android-ui-utils.googlecode.com, androiduipatterns.com, Spring RestTemplates ou encore androidannotations.org.</p>
+
+<p>Enfin, s’il y a une idée à garder en tête, c’est celle-ci:  <em>il faut que le produit marche! Pas besoin de fournir un super beau code!</em></p>
+
+<h2>L’implémentation (partie scala uniquement)</h2>
+
+<p>Passons maintenant à l’implémentation. Nous sommes partis d’une application déjà existante, avec des fonctionnalités à rajouter ou compléter. Les squelettes sont d’ailleurs disponibles sur GitHub pour les parites scala et Android.
+Pour suivre le format d’un hackathon, nous avons formé des petits groupes de 4 personnes et nous nous sommes répartis des tâches après avoir établi ce qui nous semblait être le plus prioritaire.</p>
+
+<p>Voici tout d’abord une rapide présentation de l’application.</p>
+
+<h3>Le squelette de l’application</h3>
+
+<p>Ce soir, il s’agit d’implémenter une application nommée ‘kplaner’ qui propose un doodle pour choisir une/des séance(s) de cinéma. Elle est composée d’une partie UI en Android, et d’une partie serveur en Scala avec l’API JSON. La partie Web Service REST va être gérée grâce à le toolkit Unfiltered.</p>
+
+<p>Les spécifications:
+- je peux choisir une date et un ciné
+- on peut me proposer la liste des films qui sont autour de ces horaires, je peux checker ceux qui me branchent
+- je peux envoyer des invitations à mes potes par tous les moyens qui me semblent bons</p>
+
+<h3>Unfiltered</h3>
+
+<p>Voici une rapide présentation de Unfiltered:</p>
+
+<ul>
+<li>la déclaration d’un web service avec l’opération HTTP Get et une réponse au format JSON s’écrit sous forme d’un contrat (intent) et ses chemins :</li>
+</ul>
+
+
+<div>
+  <pre><code class='scala'>/** unfiltered plan */
+trait KApp extends unfiltered.filter.Plan {
+  self: KinoService with KPlanerCreationService =&gt;
+
+  def intent = {
+    case GET(Path(&quot;/kinolist&quot;)) =&gt; jsonResponse(listKinos())
+    case GET(Path(&quot;/filmlist&quot;)) =&gt; jsonResponse(listFilms())
+    case GET(Path(&quot;/sessions&quot;)) =&gt; jsonResponse(listShowing())
+  }
+}</code></pre>
+</div>
+
+
+<ul>
+<li>le lancement du serveur:</li>
+</ul>
+
+
+<div>
+  <pre><code class='scala'>/** embedded server */
+object Server {
+  def main(args: Array[String]) {
+    val http = unfiltered.jetty.Http(8080) // this will not be necessary in 0.4.0
+    http.context(&quot;/assets&quot;) { _.resources(new java.net.URL(getClass().getResource(&quot;/www/css&quot;), &quot;.&quot;)) }
+      .filter(new KApp with InMemoryKinoFixtureService with InMemoryKplanerCreationService).run({ svr =&gt;
+    {
+      unfiltered.util.Browser.open(http.url)
+    }
+      }, { svr =&gt;
+        println(&quot;shutting down server&quot;)
+      })
+  }
+}</code></pre>
+</div>
+
+
+<p>Un des avantages de Scala, est la possibilité de mettre du code xml/html inline sans passer par des strings comme le montre l’exemple suivant :</p>
+
+<div>
+  <pre><code class='scala'>case GET(Path(&quot;/newdoodle&quot;)) =&gt; Ok ~&gt; HtmlContent ~&gt; Html(
+    &lt;html&gt;&lt;body&gt;&lt;form action=&quot;/kplaner&quot; method=&quot;POST&quot;&gt;
+      &lt;input type=&quot;text&quot; name=&quot;kinoid&quot;/&gt;
+      &lt;input type=&quot;text&quot; name=&quot;date&quot;/&gt;
+      &lt;input type=&quot;submit&quot;/&gt;
+    &lt;/form&gt;&lt;/body&gt;&lt;/html&gt;
+  )</code></pre>
+</div>
+
+
+<h3>Notre production</h3>
+
+<p>Après quelques petits problèmes de configurations d’environnement (n’est-ce pas @nivdul :D), on est rentré dans le code.</p>
+
+<p>Nous avons identifié 3 améliorations du squelette :</p>
+
+<ul>
+<li>ajout d’un nouveau doodle (correspondant à un cinéma et une date) à l’aide d’un formulaire.</li>
+</ul>
+
+
+<p>Aperçu du service de sauvegarde in memory des nouveaux doodles créés:</p>
+
+<div>
+  <pre><code class='scala'>trait InMemoryKplanerCreationService extends KPlanerCreationService {
+  lazy val kplanerMap = new collection.mutable.HashMap[String, Kplaner]()
+
+  def newKplaner(kino: Kino, date: DateTime) = {
+    val uid = UUID.randomUUID().toString
+    val kplaner = Kplaner(uid, kino, date, Set.empty)
+    kplanerMap += uid -&gt; kplaner
+    kplaner
+  }
+…
+}</code></pre>
+</div>
+
+
+<ul>
+<li>affichage d’une liste filtrée sur un cinéma et une date dans un intervalle de 2h.</li>
+</ul>
+
+
+<div>
+  <pre><code class='scala'>case GET(Path(Seg(&quot;sessions&quot; :: timestamp :: Nil))) =&gt; jsonResponse(listShowing().filter(x =&gt;
+  {
+
+    val showingTimestamp = x.datetime.toDate.getTime
+    x.datetime.toDate.getTime &gt; timestamp.toLong - ONE_HOUR &amp;&amp; showingTimestamp &lt; timestamp.toLong + ONE_HOUR
+  }</code></pre>
+</div>
+
+
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>case GET(Path(Seg("sessions" :: timestamp :: Nil))) => jsonResponse(listShowing().filter(x =>
+</span><span class='line'>  {
+</span><span class='line'>
+</span><span class='line'>    val showingTimestamp = x.datetime.toDate.getTime
+</span><span class='line'>    x.datetime.toDate.getTime > timestamp.toLong - ONE_HOUR && showingTimestamp &lt; timestamp.toLong + ONE_HOUR
+</span><span class='line'>  }</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>ajout d’une vue de vote pour le film de son choix.</li>
+</ul>
+
+
+<p>Par manque de temps, on n’a pas fait le lien entre le formulaire de vote du choix du film d’un doodle et la partie API serveur, mais on y était proche.</p>
+
+<h3>Bonus</h3>
+
+<p>Premier soucis au niveau des dates: comment gérer une date sur différentes UI?
+Un très bon article traite ce sujet d’ailleurs. Après plusieurs échanges au seins de l’équipe, il apparaît qu’il est plus simple de passer par des timestamp (nombre de (milli)secondes depuis le 1er Jan 1970) pour les transferts et d’utiliser l’API Joda Time côté Java/Scala.</p>
+
+<p>exemple de code</p>
+
+<p>Pour faciliter les tests<em>, à noter que les 2 extensions chrome JSONView et Advanced REST client sont assez simple d’utilisation et ont un rendu plutôt sympa.
+</em>Penser à pointer sur le bon serveur ;) cc @mchataigner</p>
+
+<p>Enfin pour la partie Web, il aurait été intéressant de rajouter un ‘datepicker’ pour faciliter l’entrée de la date à l’utilisateur, car trouver le datetime de tête&#8230; nous on sait pas faire.</p>
+
+<h2>Conclusion</h2>
+
+<h2>Ludwine</h2>
+
+<p>La soirée a été très intéressante en terme de développement, puisque j’ai appris à implémenter des services REST grâce à Unfiltered. J’ai également pu constater qu’il était assez simple de gérer des formulaires html en scala. Enfin, cette soirée m’a vraiment donné envie de participer à un hackathon.</p>
+
+<h2>Mathieu</h2>
+
+<p>C’était une expérience sympa. Du coup, j’ai envie d’aller au hackathon AngelHack. Cependant, je ne suis pas sûr d’être au niveau pour shipper les features assez rapidement pour gagner, je ne suis pas encore fluide en Scala. Mais rappelons-le, l’essentiel c’est de participer. Et puis on a jusqu’au 30 novembre pour s’entraîner.</p>
+
+<p>Et toi, viendras-tu au AngelHack?</p>
 ]]></content>
   </entry>
   
