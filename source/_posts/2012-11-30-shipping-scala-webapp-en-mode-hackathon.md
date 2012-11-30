@@ -4,6 +4,7 @@ title: "Shipper des API, du Web avec Scala et de l'Android en mode hackathon"
 description: ""
 category: "community"
 tags: ["scala","android","hackathon"]
+comment: true
 ---
 <!--{% include JB/setup %}-->
 
