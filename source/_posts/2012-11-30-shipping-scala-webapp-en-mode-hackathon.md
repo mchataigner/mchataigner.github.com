@@ -180,12 +180,10 @@ Enfin pour la partie Web, il aurait été intéressant de rajouter un ‘datepic
 
 ##Conclusion
 
-<!--
-##Ludwine
+###Ludwine
 La soirée a été très intéressante en terme de développement, puisque j’ai appris à implémenter des services REST grâce à Unfiltered. J’ai également pu constater qu’il était assez simple de gérer des formulaires html en scala. Enfin, cette soirée m’a vraiment donné envie de participer à un hackathon.
 
-##Mathieu
--->
+###Mathieu
 C’était une expérience sympa. Du coup, j’ai envie d’aller au hackathon AngelHack. Cependant, je ne suis pas sûr d’être au niveau pour shipper les features assez rapidement pour gagner, je ne suis pas encore fluide en Scala. Mais rappelons-le, l’essentiel c’est de participer. Et puis on a jusqu’au 30 novembre pour s’entraîner. 
 
 Merci à [@nivdul](http://twitter.com/nivdul) pour avoir co-rédigé cet article.
