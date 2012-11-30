@@ -4,7 +4,7 @@
 
 url: http://mchataigner.github.com
 title: MootCube.info
-subtitle: A blog for developers and more.
+subtitle: Un blog pour les développeurs et plus...
 author: Mathieu Chataigner
 simple_search: http://google.com/search
 description:
@@ -89,11 +89,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: mootcube
+disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-36717912-1
 
 # Facebook Like
 facebook_like: false

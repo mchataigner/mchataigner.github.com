@@ -177,6 +177,7 @@ exemple de code
 
 
 Pour faciliter les tests\*, à noter que les 2 extensions chrome JSONView et Advanced REST client sont assez simple d’utilisation et ont un rendu plutôt sympa.
+
 \* Penser à pointer sur le bon serveur ;) cc @mchataigner
 
 Enfin pour la partie Web, il aurait été intéressant de rajouter un ‘datepicker’ pour faciliter l’entrée de la date à l’utilisateur, car trouver le datetime de tête... nous on sait pas faire.
